@@ -1,4 +1,4 @@
-# `OpenMythos` — Class Reference
+# `Mythosmith` — Class Reference
 
 **Module:** `open_mythos.main`  
 **Base class:** `torch.nn.Module`
@@ -7,7 +7,7 @@
 
 ## Overview
 
-`OpenMythos` is the top-level model class implementing the Recurrent-Depth Transformer (RDT) architecture described in [the OpenMythos hypothesis](../README.md). It assembles three functional stages — **Prelude**, **Recurrent Block**, and **Coda** — into a complete autoregressive language model.
+`OpenMythos` is the top-level model class implementing the Recurrent-Depth Transformer (RDT) architecture described in [the Mythosmith hypothesis](../README.md). It assembles three functional stages — **Prelude**, **Recurrent Block**, and **Coda** — into a complete autoregressive language model.
 
 ```
 Input token IDs  (B, T)
